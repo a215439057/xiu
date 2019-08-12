@@ -1,0 +1,91 @@
+	h1, p, a, img, * {
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	}
+
+	a{
+		color: #000;
+		font-size: 100%;
+		text-decoration: none;
+	}
+
+	img {
+    	border: medium none;
+    	vertical-align: middle;
+	}
+
+	* {
+    	margin: 0;
+    	padding-top: 0;
+	}
+
+	body {
+   	 	color: #000;
+		font-size: 100%;
+		margin: 0px;
+		width: 100%;
+	}
+	.clear {
+		clear: both;
+	}	
+	@media only screen and (min-width: 1280px)  
+	{	
+
+	/* 顶部*/
+	.top{
+		width: 100%;
+		margin-top: 120px;	
+		margin-bottom: 20px;
+	}
+
+	.top .logo{
+		margin-left: 20px;
+		width: 45%;
+		float: left;
+	}
+	.top .nav{
+		width: 45%;
+		float: left;
+		text-align: right;
+	}
+	.top .nav ul li{
+		float: left;
+		margin-right: 10px;
+		vertical-align: bottom;
+	}
+	/* banner*/	
+	.banner{
+		width: 100%;
+	}
+
+	/* 主框架*/
+	.main{
+		width: 80%;
+		margin:0 auto;
+	}
+	.main .main_1{
+		width: 80%;
+		margin:0 auto;
+	}
+	.main .main_1 ul li{
+		width: 20%;
+		margin-left: 2%;
+		float: left;
+	}
+
+	.main .main_1 ul li div {
+		width: 100%;
+	}
+	.main .main_1 ul li .hui {
+		background-color: #999;
+		width:100%;
+		color:#fff;
+		text-align: center;
+		padding:  10px 0;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+
+	}

@@ -1,0 +1,226 @@
+		@media only screen and (max-width: 767px) 
+		{
+			body{
+				font-size: 10px;
+				color: #999;
+			}
+			a{
+				color: #999;
+			}
+			 img{
+				width: 100%;
+			}
+
+			.top{
+				width: 100%;
+			}
+			.top .logo{
+				width: 100%;
+			}
+
+			.top .nav {
+				height: 100%;
+				background-color: #777;
+
+			}
+			.top .navv{
+				width: 88%;
+				display:inline-block;
+			}
+			.top .nav ul{
+				width: 100%;
+				text-align: center;
+				
+			}
+			.top .nav ul li{
+				display:inline-block;
+				width: 32%;
+				margin: 6px 0;
+				overflow: auto;
+				padding-top: 10px;
+			}
+			.top .nav a{
+				color: #fff;
+			}
+			.top .nav .denglu{
+				display:inline-block;
+				width: 8%;
+				margin: 6px 0;
+				position: relative;
+				font-size: 16px;
+				top:-30px;
+			}
+
+
+			.banner{
+				width: 100%;
+			}
+			.main {
+				width: 90%;
+				margin: 0 auto;
+			}
+			.main .main_1,.main_2,.main_3,.main_4,.shop,.ban,.links_2,.links_3,.unit{
+				margin-top: 20px;
+			}
+			.main .main_1 ul li{
+				display: inline-block;
+				width: 45%;
+				margin-left: 10px;
+				margin-top: 20px;
+			}
+			.main .main_1 ul li .hui{
+				width: 100%;
+				background-color: #999;
+				text-align: center;
+				padding: 10px 0;
+				color: #fff;
+				font-size: 18px;
+				letter-spacing:8px;
+				font-weight: bold;
+			}
+			.main .main_2 {
+				margin-left: 10px;
+			}
+			.main .main_2 ul li{
+				width:18%;
+				float: left;
+				text-align: center;		
+				margin-left: 5px;	
+			}
+			.main .main_2 ul li .zi{
+				margin-top: 12px;
+			}
+
+
+			.main_3 {
+				    width: 100%; 
+				    /* 左外边距宽度的一半，50% */
+				    text-align: center;
+				    font-size: 25px;
+				}
+			/*伪元素实现*/
+			.main_3 .title:before {
+			    display: inline-block;
+			    position: relative;
+			    top: -7px;
+			    right: 20px;
+			    content: "";
+			    width: 100px;
+			    height: 0px;
+			    border: 1px solid #000;
+
+			}
+			.main_3 .title:after {
+			    display: inline-block;
+			     position: relative;
+			    top: -7px;
+			    left: 20px;
+			    content: "";
+			    width: 100px;
+			    height: 0px;
+			    border: 1px solid #000;
+			}
+			.main_3 ul li{
+				width: 46%;
+				float:left;	
+				margin-left: 10px;
+				margin-top: 10px;
+			}
+			.main_4 ul{
+				margin-top: 5px;
+			}
+			.main_4 ul li{
+				float: left;
+				width: 19%;
+				border-right: 1px solid #888;
+				font-size: 14px;
+				text-align: center;
+				color: #888;
+				padding-right: 2.4px;
+			}
+
+			/*搜索框*/
+			.seach{
+				margin-top: 10px;
+				background-color:#999;
+				font-size: 6px;
+
+			}
+	        .bar input {
+	            width: 150px;
+	            border-radius: 42px;
+	            border: 2px solid #324B4E;
+	            background: #F9F0DA;
+	            transition: .3s linear;
+	            float: left;
+	            margin:8px 4px;
+	        }
+	        .seach button {
+	            background: none;
+	            top: -2px;
+	            right: 0;
+	            float: left;
+	            border: 0px;
+	            margin: 0 2px;
+	            padding:8px 0;
+	            color: #fff;
+	        }
+			.links ul{
+				margin-top: 10px;
+			}
+	        .links ul li {
+				float: left;
+				width: 11%;
+	        }
+
+	        /*购买*/
+	        .shop ul li{
+	        	width: 30%;
+	        	float: left;
+	        	margin-left:10px;
+	        	position: relative;
+	        }
+	        .shop ul li img{
+	        	padding: 10px 0;
+	        }
+	        .cen{
+	        	position: absolute;
+	        	top: 40%;
+	        	left: 30%;
+	        	color: #fff;
+	        	font-size: 20px;
+	        	font-weight: bold;
+	        }
+	        .shop ul li .price{
+				float: left;
+				font-size: 18px;
+	        }
+	        .shop ul li button{
+	        	color: #fff;
+	        	float: right;
+	        	border: 0px;
+	        	padding:4px;
+	        }
+			.ban{
+				position: relative;
+			}
+			.ban .cen {
+				font-size: 30px;
+			}
+			.links_2 ul{
+				width: 95%;
+				margin:0 auto;
+			}
+			.links_2 ul li{
+				float: left;
+				width: 13%;
+				margin-right:4px;
+				font-size: 14px;
+				text-align: center;
+			}
+			.links_3 ul li{
+				float: left;
+				width: 30%;
+			}
+	}
+	
