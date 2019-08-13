@@ -38,13 +38,13 @@
 				margin: 6px 0;
 				overflow: auto;
 				padding-top: 10px;
+				font-size: 16px;
 			}
 			.top .nav a{
 				color: #fff;
 			}
 			.top .nav .denglu{
 				display:inline-block;
-				width: 8%;
 				margin: 6px 0;
 				position: relative;
 				font-size: 16px;
@@ -147,7 +147,7 @@
 				padding-left: 14px;
 			}
 	        .bar input {
-	            width: 150px;
+	            width: 120px;
 	            border-radius: 42px;
 	            border: 2px solid #324B4E;
 	            background: #F9F0DA;
@@ -243,7 +243,6 @@
 			.unit .unitleft{
 				width: 100%;
 				background-color: #999;
-				margin-bottom:10px;
 				padding-bottom: 5px;
 			}
 			.unit .unitleft h3{
@@ -283,14 +282,50 @@
 				float: left;
 			}
 			.unit .unitleft  .bunn{
-				padding-left: 30%;
+				padding-left: 15%;
 
 			}
-			.unit .unitleft button{
-				
+			.unit .unitleft button{				
 				border: 0px;
 				background-color: #26aa7b;
 				padding:10px;
+				margin-left: 10%;
+			}
+			.bottm{
+				margin-bottom: 10px;
+			}
+			.bottm .bom{
+				width: 100%;
+				border-bottom: 1px solid #999;
+				padding-bottom: 5px;
+			}
+			.bottm .bom .minlogo{
+				width: 70%;
+				display:inline-block
+			}
+			.bottm .bom .mintitle{
+				width: 25%;
+				display:inline-block;
+				text-align: right;
+				font-size: 22px; 
+			}
+			.bottm .bom .min{
+				margin-left: 5px;
+				display:block;
+			}
+			.bottm .bom .min a{
+				float: left;
+				width: 50%;
+				font-size: 18px;
+				margin-bottom: 5px;
+			}
+			.end .erweima{
+				width: 50%;
+				margin:0 auto;
+			}
+			.end ul li{
+				font-size: 18px;
+				margin-top: 10px;
 			}
 	}
 	
