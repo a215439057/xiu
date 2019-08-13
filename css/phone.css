@@ -52,9 +52,56 @@
 			}
 
 
-			.banner{
-				width: 100%;
-			}
+		.bann{
+			min-height:100%;
+			overflow: hidden;
+			position: relative;
+		}			
+		.banner .textt{
+			padding-left: 10%;
+		}
+		.banner .textt h3{
+			font-size: 32px;
+			padding-bottom: 20px;
+		}	
+		.banner .textt p{
+			font-size: 18px;
+			padding-right:170px;
+			width: 90%;
+			font-weight: 200;
+		}
+		.banner .butt{
+			padding-top:30px;
+			padding-left: 12%;
+		}
+		.banner .butt a{
+			font-size: 18px;
+			padding:10px 20px;
+		}
+		 .iem{
+					display: none;
+					position: relative;
+				}
+		.trans{
+					transition:all .75s ease-in-out;
+				}
+		 .iemt{
+					left: 0;			
+				}
+		.lef{
+					left: -100%;
+				}
+		.bock{
+					display: block;	
+				}
+		.righ{
+					left: 100%;
+				}
+		.abs{
+					position: absolute;
+				}
+
+
 			.main {
 				width: 100%;
 				margin: 0 auto;

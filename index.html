@@ -6,6 +6,23 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/phone.css">
+
+		<script type="text/javascript" src="js/banner.js"></script>	
+		<script type="text/javascript">
+		function addLoadEvent(func){ 
+	    var oldonload=window.onload; 
+	    if(typeof window.onload!='function'){ 
+	        window.onload=func; 
+	    }else{ 
+	        window.onload=function(){ 
+	            oldonload(); 
+	            func(); 
+	        } 
+	    } 
+	} 
+	addLoadEvent(b);	
+</script>
+
 </head>
 <body>
 	<div class="top">
@@ -28,7 +45,14 @@
 			
 		</div>
 	</div>
-	<div class="banner"><img src="./images/banner.jpg"></div>
+		<div class="bann">
+			<div class="banner" id="banner">
+					<img src="images/banner.jpg" class="iem lef abs">
+					<img src="images/banner.jpg" class="iem iemt bock">
+					<img src="images/banner.jpg" class="iem iemt righ bock abs">
+					<img src="images/banner.jpg" class="iem">
+			</div>	
+		</div>
 	<div class="main">
 		<div class="main_1">
 			<ul>
